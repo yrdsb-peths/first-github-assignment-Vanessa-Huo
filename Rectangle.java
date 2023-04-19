@@ -19,4 +19,7 @@ public class Rectangle{
   public int getArea(){
     return this.width * this.length; 
   }
+  
+  public int getCircum(){
+    return (this.length+this.width)*2;
 }
