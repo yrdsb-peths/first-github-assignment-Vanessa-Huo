@@ -3,17 +3,17 @@ public class Rectangle{
   private int length;
   private int width; 
   
-  public Rectangle(){
+  public Rectangle(int length, int width){
     this.length = length;
     this.width = width;
   }
   
   public int getLength(){
-    return this.length; 
+    return length; 
   }
   
   public int getWidth(){
-    return this.width;
+    return width;
   }
   
   public int getArea(){
